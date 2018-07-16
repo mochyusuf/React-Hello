@@ -8,9 +8,27 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "dev": "webpack-dev-server --env.dev",
+    "build": "webpack",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mochyusuf/React-Hello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mochyusuf/React-Hello/issues"
+  },
+  "homepage": "https://github.com/mochyusuf/React-Hello#readme"
 }
